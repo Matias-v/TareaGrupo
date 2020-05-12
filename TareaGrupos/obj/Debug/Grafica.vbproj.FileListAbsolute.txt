@@ -1,0 +1,17 @@
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\TareaGrupos.exe.config
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\TareaGrupos.exe
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\TareaGrupos.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\TareaGrupos.xml
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\Logica.dll
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\Logica.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\Logica.xml
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\Grafica.vbprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Resources.resources
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\Grafica.vbproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\Grafica.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\Grafica.vbproj.CopyComplete
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.exe
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.xml
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Listado.resources
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Alta_empleado.resources

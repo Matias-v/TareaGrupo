@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\bin\Debug\Logica.dll
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\bin\Debug\Logica.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\bin\Debug\Logica.xml
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.Resources.resources
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.dll
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.xml
+C:\Users\Usuario\source\repos\TareaGrupos\Logica\obj\Debug\Logica.pdb
