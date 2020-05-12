@@ -13,5 +13,4 @@ C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\Grafica.vbproj.C
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.exe
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.xml
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.pdb
-C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Listado.resources
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Alta_empleado.resources

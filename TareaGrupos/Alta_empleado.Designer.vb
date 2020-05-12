@@ -35,7 +35,6 @@ Partial Class Alta_empleado
         Me.lbl_especialidad = New System.Windows.Forms.Label()
         Me.cbo_tipo = New System.Windows.Forms.ComboBox()
         Me.btn_alta = New System.Windows.Forms.Button()
-        Me.btn_volver = New System.Windows.Forms.Button()
         Me.txt_direccion = New System.Windows.Forms.TextBox()
         Me.lbl_direccion = New System.Windows.Forms.Label()
         Me.txt_sueldomens = New System.Windows.Forms.TextBox()
@@ -43,6 +42,10 @@ Partial Class Alta_empleado
         Me.txt_telefono = New System.Windows.Forms.TextBox()
         Me.lbl_telefono = New System.Windows.Forms.Label()
         Me.btn_salir = New System.Windows.Forms.Button()
+        Me.gvPersonas = New System.Windows.Forms.DataGridView()
+        Me.btn_traer_datos_con_grid = New System.Windows.Forms.Button()
+        Me.cbo_tipoListado = New System.Windows.Forms.ComboBox()
+        CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lbl_primer_nombre
@@ -145,21 +148,12 @@ Partial Class Alta_empleado
         '
         'btn_alta
         '
-        Me.btn_alta.Location = New System.Drawing.Point(18, 257)
+        Me.btn_alta.Location = New System.Drawing.Point(13, 230)
         Me.btn_alta.Name = "btn_alta"
         Me.btn_alta.Size = New System.Drawing.Size(138, 26)
         Me.btn_alta.TabIndex = 13
         Me.btn_alta.Text = "Dar de alta"
         Me.btn_alta.UseVisualStyleBackColor = True
-        '
-        'btn_volver
-        '
-        Me.btn_volver.Location = New System.Drawing.Point(189, 257)
-        Me.btn_volver.Name = "btn_volver"
-        Me.btn_volver.Size = New System.Drawing.Size(104, 26)
-        Me.btn_volver.TabIndex = 14
-        Me.btn_volver.Text = "Volver"
-        Me.btn_volver.UseVisualStyleBackColor = True
         '
         'txt_direccion
         '
@@ -211,18 +205,48 @@ Partial Class Alta_empleado
         '
         'btn_salir
         '
-        Me.btn_salir.Location = New System.Drawing.Point(311, 257)
+        Me.btn_salir.Location = New System.Drawing.Point(417, 394)
         Me.btn_salir.Name = "btn_salir"
         Me.btn_salir.Size = New System.Drawing.Size(104, 26)
         Me.btn_salir.TabIndex = 21
         Me.btn_salir.Text = "Salir"
         Me.btn_salir.UseVisualStyleBackColor = True
         '
+        'gvPersonas
+        '
+        Me.gvPersonas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.gvPersonas.Location = New System.Drawing.Point(13, 262)
+        Me.gvPersonas.Name = "gvPersonas"
+        Me.gvPersonas.Size = New System.Drawing.Size(508, 126)
+        Me.gvPersonas.TabIndex = 22
+        '
+        'btn_traer_datos_con_grid
+        '
+        Me.btn_traer_datos_con_grid.Location = New System.Drawing.Point(172, 230)
+        Me.btn_traer_datos_con_grid.Name = "btn_traer_datos_con_grid"
+        Me.btn_traer_datos_con_grid.Size = New System.Drawing.Size(163, 26)
+        Me.btn_traer_datos_con_grid.TabIndex = 23
+        Me.btn_traer_datos_con_grid.Text = "Traer datos "
+        Me.btn_traer_datos_con_grid.UseVisualStyleBackColor = True
+        '
+        'cbo_tipoListado
+        '
+        Me.cbo_tipoListado.FormattingEnabled = True
+        Me.cbo_tipoListado.Items.AddRange(New Object() {"Administrativo", "Operario", "Gerente", "Todos"})
+        Me.cbo_tipoListado.Location = New System.Drawing.Point(344, 230)
+        Me.cbo_tipoListado.Name = "cbo_tipoListado"
+        Me.cbo_tipoListado.Size = New System.Drawing.Size(127, 21)
+        Me.cbo_tipoListado.TabIndex = 24
+        Me.cbo_tipoListado.Text = "Tipo"
+        '
         'Alta_empleado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(450, 295)
+        Me.ClientSize = New System.Drawing.Size(534, 425)
+        Me.Controls.Add(Me.cbo_tipoListado)
+        Me.Controls.Add(Me.btn_traer_datos_con_grid)
+        Me.Controls.Add(Me.gvPersonas)
         Me.Controls.Add(Me.btn_salir)
         Me.Controls.Add(Me.txt_telefono)
         Me.Controls.Add(Me.lbl_telefono)
@@ -230,7 +254,6 @@ Partial Class Alta_empleado
         Me.Controls.Add(Me.lbl_sueldomens)
         Me.Controls.Add(Me.txt_direccion)
         Me.Controls.Add(Me.lbl_direccion)
-        Me.Controls.Add(Me.btn_volver)
         Me.Controls.Add(Me.btn_alta)
         Me.Controls.Add(Me.cbo_tipo)
         Me.Controls.Add(Me.lbl_especialidad)
@@ -246,6 +269,7 @@ Partial Class Alta_empleado
         Me.Controls.Add(Me.lbl_primer_nombre)
         Me.Name = "Alta_empleado"
         Me.Text = "Alta empleado"
+        CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -264,7 +288,6 @@ Partial Class Alta_empleado
     Friend WithEvents lbl_especialidad As Label
     Friend WithEvents cbo_tipo As ComboBox
     Friend WithEvents btn_alta As Button
-    Friend WithEvents btn_volver As Button
     Friend WithEvents txt_direccion As TextBox
     Friend WithEvents lbl_direccion As Label
     Friend WithEvents txt_sueldomens As TextBox
@@ -272,4 +295,7 @@ Partial Class Alta_empleado
     Friend WithEvents txt_telefono As TextBox
     Friend WithEvents lbl_telefono As Label
     Friend WithEvents btn_salir As Button
+    Friend WithEvents gvPersonas As DataGridView
+    Friend WithEvents btn_traer_datos_con_grid As Button
+    Friend WithEvents cbo_tipoListado As ComboBox
 End Class

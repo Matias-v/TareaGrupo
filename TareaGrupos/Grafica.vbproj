@@ -73,12 +73,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Listado.Designer.vb">
-      <DependentUpon>Listado.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Listado.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Alta_empleado.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,9 +98,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Listado.resx">
-      <DependentUpon>Listado.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Alta_empleado.resx">
       <DependentUpon>Alta_empleado.vb</DependentUpon>
     </EmbeddedResource>
