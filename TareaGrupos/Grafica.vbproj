@@ -86,6 +86,12 @@
     <Compile Include="Eliminar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Listado.Designer.vb">
+      <DependentUpon>Listado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modificar.Designer.vb">
       <DependentUpon>Modificar.vb</DependentUpon>
     </Compile>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Eliminar.resx">
       <DependentUpon>Eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado.resx">
+      <DependentUpon>Listado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modificar.resx">
       <DependentUpon>Modificar.vb</DependentUpon>

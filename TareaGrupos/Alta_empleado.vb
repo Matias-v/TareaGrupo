@@ -37,15 +37,9 @@ Public Class Alta_empleado
 
     Private Sub btn_traer_datos_con_grid_Click(sender As Object, e As EventArgs) Handles btn_traer_datos_con_grid.Click
         Dim conOdbc As New OdbcConnection("dsn=ConexionTareaGrupo;uid=root;pwd=;")
-        Dim tipo As String = cbo_tipoListado.Text
         Dim consulta As String
 
-        If tipo = "Todos" Then
-            consulta = "SELECT * FROM empleado "
-        Else
-            consulta = "SELECT * FROM empleado "
-            consulta = consulta & "WHERE TIPO =" & "'" & tipo & "'"
-        End If
+        consulta = "SELECT * FROM empleado "
 
         Dim conexion As BDatos.Conexion = New BDatos.Conexion
         Try
@@ -59,11 +53,11 @@ Public Class Alta_empleado
 
     End Sub
 
-    Private Sub cbo_tipoListado_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbo_tipoListado.SelectedIndexChanged
+    Private Sub cbo_tipoListado_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lbl_sueldoTotal.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

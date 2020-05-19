@@ -10,4 +10,8 @@
     Private Sub btn_eliminar_Click(sender As Object, e As EventArgs) Handles btn_eliminar.Click
         Eliminar.Show()
     End Sub
+
+    Private Sub btn_listado_Click(sender As Object, e As EventArgs) Handles btn_listado.Click
+        Listado.Show()
+    End Sub
 End Class

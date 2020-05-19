@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Alta_empleado
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Alta_empleado
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lbl_primer_nombre = New System.Windows.Forms.Label()
         Me.lbl_segundo_nombre = New System.Windows.Forms.Label()
@@ -44,9 +44,6 @@ Partial Class Alta_empleado
         Me.btn_salir = New System.Windows.Forms.Button()
         Me.gvPersonas = New System.Windows.Forms.DataGridView()
         Me.btn_traer_datos_con_grid = New System.Windows.Forms.Button()
-        Me.cbo_tipoListado = New System.Windows.Forms.ComboBox()
-        Me.txt_sueldoTotal = New System.Windows.Forms.TextBox()
-        Me.lbl_sueldoTotal = New System.Windows.Forms.Label()
         CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -231,41 +228,11 @@ Partial Class Alta_empleado
         Me.btn_traer_datos_con_grid.Text = "Traer datos "
         Me.btn_traer_datos_con_grid.UseVisualStyleBackColor = True
         '
-        'cbo_tipoListado
-        '
-        Me.cbo_tipoListado.FormattingEnabled = True
-        Me.cbo_tipoListado.Items.AddRange(New Object() {"Administrativo", "Operario", "Gerente", "Todos"})
-        Me.cbo_tipoListado.Location = New System.Drawing.Point(344, 230)
-        Me.cbo_tipoListado.Name = "cbo_tipoListado"
-        Me.cbo_tipoListado.Size = New System.Drawing.Size(127, 21)
-        Me.cbo_tipoListado.TabIndex = 24
-        Me.cbo_tipoListado.Text = "Tipo"
-        '
-        'txt_sueldoTotal
-        '
-        Me.txt_sueldoTotal.Enabled = False
-        Me.txt_sueldoTotal.Location = New System.Drawing.Point(344, 186)
-        Me.txt_sueldoTotal.Name = "txt_sueldoTotal"
-        Me.txt_sueldoTotal.Size = New System.Drawing.Size(143, 20)
-        Me.txt_sueldoTotal.TabIndex = 25
-        '
-        'lbl_sueldoTotal
-        '
-        Me.lbl_sueldoTotal.AutoSize = True
-        Me.lbl_sueldoTotal.Location = New System.Drawing.Point(341, 170)
-        Me.lbl_sueldoTotal.Name = "lbl_sueldoTotal"
-        Me.lbl_sueldoTotal.Size = New System.Drawing.Size(63, 13)
-        Me.lbl_sueldoTotal.TabIndex = 26
-        Me.lbl_sueldoTotal.Text = "Sueldo total"
-        '
         'Alta_empleado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(534, 425)
-        Me.Controls.Add(Me.lbl_sueldoTotal)
-        Me.Controls.Add(Me.txt_sueldoTotal)
-        Me.Controls.Add(Me.cbo_tipoListado)
         Me.Controls.Add(Me.btn_traer_datos_con_grid)
         Me.Controls.Add(Me.gvPersonas)
         Me.Controls.Add(Me.btn_salir)
@@ -318,7 +285,4 @@ Partial Class Alta_empleado
     Friend WithEvents btn_salir As Button
     Friend WithEvents gvPersonas As DataGridView
     Friend WithEvents btn_traer_datos_con_grid As Button
-    Friend WithEvents cbo_tipoListado As ComboBox
-    Friend WithEvents txt_sueldoTotal As TextBox
-    Friend WithEvents lbl_sueldoTotal As Label
 End Class
