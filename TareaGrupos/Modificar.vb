@@ -67,25 +67,14 @@
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
         End Try
-        txt_cedula.Enabled = False
+        txt_cedula.Enabled = True
     End Sub
     Private Sub btn_modificar_Click(sender As Object, e As EventArgs) Handles btn_modificar.Click
-        Dim eliminar As Logica.eliminar = New Logica.eliminar
-        Dim empleado As Logica.alta_empleado = New Logica.alta_empleado()
-        Dim alta As Alta_empleado = New Alta_empleado()
-        If empleado.esCorrectaCedula(txt_cedula.Text) _
-            And txt_primer_nombre.Text <> "" _
-            And txt_primer_apellido.Text <> "" _
-            And txt_sueldomens.Text <> "" _
-            And txt_direccion.Text <> "" _
-            And cbo_tipo.SelectedValue <> 0 Then
-            Dim consulta As String = eliminar.eliminarConsulta(Val(txt_cedula.Text))
-            If empleado.agregarRegistro(Integer.Parse(txt_cedula.Text), txt_primer_nombre.Text, txt_segundo_nombre.Text, txt_primer_apellido.Text, txt_segundo_apellido.Text, cbo_tipo.Text, txt_sueldomens.Text, txt_telefono.Text, txt_direccion.Text) = True Then
-                MsgBox("Registro agregado correctamente !")
-
-                alta.limpiarFormulario()
-            End If
-        End If
+        Dim modific As Logica.modificar = New Logica.modificar()
+        modific.Modificar(Integer.Parse(txt_cedula.Text),
+                   txt_primer_nombre.Text, txt_segundo_nombre.Text, txt_primer_apellido.Text, txt_segundo_apellido.Text,
+                   txt_direccion.Text, Double.Parse(txt_sueldomens.Text),
+                   cbo_tipo.Text)
 
     End Sub
 
@@ -103,9 +92,9 @@
             txt_primer_apellido.Text = gvPersonas.Item(3, i).Value()
             txt_segundo_apellido.Text = gvPersonas.Item(4, i).Value()
             cbo_tipo.Text = gvPersonas.Item(5, i).Value()
-            txt_direccion.Text = gvPersonas.Item(6, i).Value()
+            txt_direccion.Text = gvPersonas.Item(8, i).Value()
             txt_telefono.Text = gvPersonas.Item(7, i).Value()
-            txt_sueldomens.Text = gvPersonas.Item(8, i).Value()
+            txt_sueldomens.Text = gvPersonas.Item(6, i).Value()
         Catch ex As Exception
 
         End Try
