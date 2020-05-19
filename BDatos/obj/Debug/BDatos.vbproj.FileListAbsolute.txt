@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\bin\Debug\BDatos.dll
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\bin\Debug\BDatos.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\bin\Debug\BDatos.xml
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.vbprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.Resources.resources
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.vbproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.dll
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.xml
+C:\Users\Usuario\source\repos\TareaGrupos\BDatos\obj\Debug\BDatos.pdb

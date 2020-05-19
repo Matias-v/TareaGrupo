@@ -65,6 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="alta_empleado.vb" />
+    <Compile Include="buscar.vb" />
+    <Compile Include="eliminar.vb" />
+    <Compile Include="modificar.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

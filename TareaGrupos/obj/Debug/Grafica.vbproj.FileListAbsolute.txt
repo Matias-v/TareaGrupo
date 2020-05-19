@@ -14,3 +14,9 @@ C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.exe
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.xml
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.pdb
 C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Alta_empleado.resources
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Eliminar.resources
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\BDatos.dll
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\BDatos.pdb
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\bin\Debug\BDatos.xml
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Modificar.resources
+C:\Users\Usuario\source\repos\TareaGrupos\TareaGrupos\obj\Debug\TareaGrupos.Principal.resources

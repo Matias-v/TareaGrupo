@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Grafica", "TareaGrupos\Graf
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Logica", "Logica\Logica.vbproj", "{D7EC3D3B-8A2C-4007-BCF1-F7C35C65118B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BDatos", "BDatos\BDatos.vbproj", "{150B7689-4689-490A-AD1F-CE863A00FC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7EC3D3B-8A2C-4007-BCF1-F7C35C65118B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EC3D3B-8A2C-4007-BCF1-F7C35C65118B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EC3D3B-8A2C-4007-BCF1-F7C35C65118B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150B7689-4689-490A-AD1F-CE863A00FC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150B7689-4689-490A-AD1F-CE863A00FC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150B7689-4689-490A-AD1F-CE863A00FC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150B7689-4689-490A-AD1F-CE863A00FC93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

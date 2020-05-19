@@ -45,6 +45,8 @@ Partial Class Alta_empleado
         Me.gvPersonas = New System.Windows.Forms.DataGridView()
         Me.btn_traer_datos_con_grid = New System.Windows.Forms.Button()
         Me.cbo_tipoListado = New System.Windows.Forms.ComboBox()
+        Me.txt_sueldoTotal = New System.Windows.Forms.TextBox()
+        Me.lbl_sueldoTotal = New System.Windows.Forms.Label()
         CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -239,11 +241,30 @@ Partial Class Alta_empleado
         Me.cbo_tipoListado.TabIndex = 24
         Me.cbo_tipoListado.Text = "Tipo"
         '
+        'txt_sueldoTotal
+        '
+        Me.txt_sueldoTotal.Enabled = False
+        Me.txt_sueldoTotal.Location = New System.Drawing.Point(344, 186)
+        Me.txt_sueldoTotal.Name = "txt_sueldoTotal"
+        Me.txt_sueldoTotal.Size = New System.Drawing.Size(143, 20)
+        Me.txt_sueldoTotal.TabIndex = 25
+        '
+        'lbl_sueldoTotal
+        '
+        Me.lbl_sueldoTotal.AutoSize = True
+        Me.lbl_sueldoTotal.Location = New System.Drawing.Point(341, 170)
+        Me.lbl_sueldoTotal.Name = "lbl_sueldoTotal"
+        Me.lbl_sueldoTotal.Size = New System.Drawing.Size(63, 13)
+        Me.lbl_sueldoTotal.TabIndex = 26
+        Me.lbl_sueldoTotal.Text = "Sueldo total"
+        '
         'Alta_empleado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(534, 425)
+        Me.Controls.Add(Me.lbl_sueldoTotal)
+        Me.Controls.Add(Me.txt_sueldoTotal)
         Me.Controls.Add(Me.cbo_tipoListado)
         Me.Controls.Add(Me.btn_traer_datos_con_grid)
         Me.Controls.Add(Me.gvPersonas)
@@ -298,4 +319,6 @@ Partial Class Alta_empleado
     Friend WithEvents gvPersonas As DataGridView
     Friend WithEvents btn_traer_datos_con_grid As Button
     Friend WithEvents cbo_tipoListado As ComboBox
+    Friend WithEvents txt_sueldoTotal As TextBox
+    Friend WithEvents lbl_sueldoTotal As Label
 End Class

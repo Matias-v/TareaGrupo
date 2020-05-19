@@ -80,6 +80,18 @@
       <DependentUpon>Alta_empleado.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Eliminar.Designer.vb">
+      <DependentUpon>Eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modificar.Designer.vb">
+      <DependentUpon>Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modificar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -96,16 +108,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Alta_empleado.resx">
       <DependentUpon>Alta_empleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar.resx">
+      <DependentUpon>Eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar.resx">
+      <DependentUpon>Modificar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +148,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BDatos\BDatos.vbproj">
+      <Project>{150b7689-4689-490a-ad1f-ce863a00fc93}</Project>
+      <Name>BDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logica\Logica.vbproj">
       <Project>{d7ec3d3b-8a2c-4007-bcf1-f7c35c65118b}</Project>
       <Name>Logica</Name>

@@ -39,4 +39,13 @@ Public Class alta_empleado
         Return guardado
     End Function
 
+    Public Function esCorrectaCedula(cedula As String)
+
+        If cedula.Length > 6 And cedula.Length < 9 Then
+            esCorrectaCedula = True
+        Else
+            esCorrectaCedula = False
+        End If
+
+    End Function
 End Class
