@@ -93,7 +93,9 @@ Partial Class Eliminar
         Me.Controls.Add(Me.btn_buscar)
         Me.Controls.Add(Me.lbl_cedula)
         Me.Controls.Add(Me.txt_cedula)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Eliminar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Eliminar"
         CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

@@ -255,7 +255,9 @@ Partial Class Alta_empleado
         Me.Controls.Add(Me.lbl_primer_apellido)
         Me.Controls.Add(Me.lbl_segundo_nombre)
         Me.Controls.Add(Me.lbl_primer_nombre)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Alta_empleado"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Alta empleado"
         CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

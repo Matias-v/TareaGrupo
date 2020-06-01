@@ -74,7 +74,9 @@ Partial Class Listado
         Me.Controls.Add(Me.cbo_tipoListado)
         Me.Controls.Add(Me.btn_traer_datos_con_grid)
         Me.Controls.Add(Me.gvPersonas)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Listado"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Listado"
         CType(Me.gvPersonas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
